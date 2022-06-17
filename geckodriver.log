@@ -1,0 +1,50 @@
+1652054174857	geckodriver	INFO	Listening on 127.0.0.1:64387
+1652054177941	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64388" "-no-remote" "-profile" "C:\\Users\\jeanp\\AppData\\Local\\Temp\\rust_mozprofilezF7Krj"
+1652054179304	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanp\\AppData\\Local\\Temp\\rust_mozprofilezF7Krj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64388/devtools/browser/78723976-8bd7-448c-98b4-d171a0835207
+1652054184212	Marionette	INFO	Listening on port 64394
+1652054184336	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?client_id=236720109952-v7ud8uaov0nb49fk5qm03as8o7dmsb30.apps.googleusercontent.com&redirect_uri=https://www.tradingview.com/accounts/complete/google-oauth2/&state=J4AuSSyyXhgW9iwVrmkjxRr93jgKfnaP&response_type=code&scope=openid+email+profile line 1 > eval line 6263 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/o/oauth2/auth?client_id=236720109952-v7ud8uaov0nb49fk5qm03as8o7dmsb30.apps.googleusercontent.com&redirect_uri=https://www.tradingview.com/accounts/complete/google-oauth2/&state=J4AuSSyyXhgW9iwVrmkjxRr93jgKfnaP&response_type=code&scope=openid+email+profile line 1 > eval line 4551 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+1652054205497	Marionette	INFO	Stopped listening on port 64394
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1652070677226	geckodriver	INFO	Listening on 127.0.0.1:57437
+1652070680619	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57438" "-no-remote" "-profile" "C:\\Users\\jeanp\\AppData\\Local\\Temp\\rust_mozprofileGvKcJh"
+1652070689765	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanp\\AppData\\Local\\Temp\\rust_mozprofileGvKcJh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57438/devtools/browser/848114e0-eb0b-4237-87c6-294b36f25d13
+1652070694456	Marionette	INFO	Listening on port 57444
+1652070694668	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=es&passive=true&continue=https://www.google.com/&ec=GAZAmgQ line 1 > eval line 3835 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=es&passive=true&continue=https://www.google.com/&ec=GAZAmgQ line 1 > eval line 743 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652071356879	Marionette	INFO	Stopped listening on port 57444
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652071857705	geckodriver	INFO	Listening on 127.0.0.1:58527
+1652071860824	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58528" "-no-remote" "-profile" "C:\\Users\\jeanp\\AppData\\Local\\Temp\\rust_mozprofile0PJWOJ"
+1652071861712	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jeanp\\AppData\\Local\\Temp\\rust_mozprofile0PJWOJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58528/devtools/browser/25e2add7-5e24-4fd4-970a-b6cf148014a5
+1652071866158	Marionette	INFO	Listening on port 58533
+1652071866243	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?faa=1&rip=1&continue=https://accounts.google.com/gsi/select?client_id%3D49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com%26ux_mode%3Dpopup%26ui_mode%3Dcard%26as%3DICV8%252BwpKPmATt79PhMrKsw%26channel_id%3Dec68b056c319dd7bb8d1ff60c9d92d32720781a27ba2f5bca9f33105440131a8%26origin%3Dhttps://twitter.com line 1 > eval line 835 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?faa=1&rip=1&continue=https://accounts.google.com/gsi/select?client_id%3D49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com%26ux_mode%3Dpopup%26ui_mode%3Dcard%26as%3DICV8%252BwpKPmATt79PhMrKsw%26channel_id%3Dec68b056c319dd7bb8d1ff60c9d92d32720781a27ba2f5bca9f33105440131a8%26origin%3Dhttps://twitter.com line 1 > eval line 137 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652071895420	Marionette	INFO	Stopped listening on port 58533
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
