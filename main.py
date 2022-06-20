@@ -12,16 +12,17 @@ while True:
     options.add_argument("--user-data-dir=C:/Users/jeanp/Desktop/user_data")
     options.page_load_strategy = 'normal'
     driver = webdriver.Chrome(options=options)
+    driver.implicitly_wait(5)
     driver.get("https://es.tradingview.com/chart/oqNt16pt/")
 
     actions=webdriver.ActionChains(driver)
-    time.sleep(3)
+    
     menuBTN=driver.find_element(By.XPATH,'/html/body/div[2]/div[4]/div/div')
     actions.move_to_element(menuBTN).click().perform()
-    time.sleep(1)
+    
     csv_option=driver.find_element(By.XPATH,'/html/body/div[5]/div/span/div[1]/div/div/div[5]')
     actions.move_to_element(csv_option).click().perform()
-    time.sleep(2)
+    
     download_btn=driver.find_element(By.XPATH,'/html/body/div[5]/div/div/div[1]/div/div[3]/div/span/button')
     actions.move_to_element(download_btn).click().perform()
     time.sleep(4)
